@@ -7,7 +7,6 @@ format:
     theme: [moon, slides.scss]
     highlight-style: a11y
     slide-number: true
-    chalkboard: true
 ---
 
 ## {#title-slide .title-slide .quarto-title-block .center data-menu-title="Title"}
@@ -20,7 +19,7 @@ format:
 
 <h1 class="title">The NASA Earthdata Cloud Cookbook</h1>
 
-<p class="subtitle"></p>
+<p class="subtitle">A Quarto Collaboration Story</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
