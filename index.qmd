@@ -1,0 +1,82 @@
+---
+title: ""
+format:
+  revealjs:
+    height: 900
+    width: 1600
+    theme: [moon, slides.scss]
+    highlight-style: a11y
+    slide-number: true
+    chalkboard: true
+---
+
+## {#title-slide .title-slide .quarto-title-block .center data-menu-title="Title"}
+
+::: {.center-x}
+![](img/nasa-logo.png){height="180px"} &nbsp;&nbsp;&nbsp;
+![](img/earthdata-cookbook-hex.png){height="300px"} &nbsp;&nbsp;&nbsp;
+![](img/openscapes_hex.png){height="180px"}
+:::
+
+<h1 class="title">The NASA Earthdata Cloud Cookbook</h1>
+
+<p class="subtitle"></p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">Andy Teucher, Openscapes</div>
+</div>
+</div>
+
+## {.center background-image="img/mentors.png" data-menu-title="Mentors"}
+
+## Getting 100+ petabytes data into scientists' hands is hard
+
+::: {style="display: flex; flex-direction: column; align-items: center; gap: 0px;"}
+![](img/DAACS1.png){width="800"}
+
+![](img/DAACS2.png){width="800"}
+
+![](img/DAACS3.png){width="800"}
+:::
+
+::: notes
+- NASA's Earth Science Data Systems Program manages 100+ petabytes of remote
+  sensing data
+- Feeds research all over the world: climate change & its impacts, landscape &
+  ocean biology, water & atmospheric processes, and more
+- The job of NASA staff across **11 different data centers** (DAACs)
+- Each center builds its own tutorials for working with NASA Earthdata
+- Traditionally siloed, with **duplicated effort** -- no shared place to
+  collaborate
+:::
+
+## Enter the Earthdata Cloud Cookbook
+
+::: columns
+::::: {.column width="55%"}
+- A Quarto-based website
+- A growing, dynamic repository of tutorials & how-tos
+- Brings together documentation + Python and R tutorials
+- Meets the needs of both **users** and **contributors**
+:::::
+
+::::: {.column width="5%"}
+:::::
+
+::::: {.column width="40%"}
+![](img/earthdata-cookbook-hex.png){width="70%"}
+:::::
+
+::::: footer
+<nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::::
+:::
+
+::: notes
+- This is the "here's a cool thing we did" reveal
+- Quarto as a multilingual publishing tool = scaffolding for a community
+- Tease: the story of *how* this came together (coming up next) -- coworking,
+  collaboration, Openscapes
+- Live site: nasa-openscapes.github.io/earthdata-cloud-cookbook
+:::
