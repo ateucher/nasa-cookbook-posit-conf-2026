@@ -29,9 +29,16 @@ $h3-font-size: 1.15em !default;
 }
 
 /* Handwriting */
-.hand{
+.hand {
   font-family: 'Gochi Hand', cursive;
   font-size: 125%;
+}
+
+.bg-color {
+    color: $body-bg;
+    h2, h3 {
+      color: $body-bg;
+    }
 }
 
 .color-gold {
@@ -102,11 +109,6 @@ $h3-font-size: 1.15em !default;
   font-family: $presentation-heading-font;
 }
 
-.footer {
-  color: $link-color;
-  font-family: $presentation-heading-font;
-}
-
 .reveal .slide-number {
   color: $link-color;
   font-family: $presentation-heading-font;
@@ -117,7 +119,16 @@ $h3-font-size: 1.15em !default;
 }
 
 .reveal .footer {
-    color: $link-color;
+  color: $link-color;
+  font-family: $presentation-heading-font;
+  
+  // Quarto's footer.css loads after the theme and sets these on .reveal .footer,
+  // so target the child to win on specificity
+  > * {
+    font-size: 1.5em;
+    text-align: right;
+    margin-right: 2em;
+  }
 }
 
 .huge-primary {
@@ -199,6 +210,28 @@ span.git-orange {
 
 .reveal .slides .sourceCode code {
   background-color: #3a3a3aff;
+}
+
+.reveal .slides .daacs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.reveal .slides .daacs p {
+  margin: 0;
+  line-height: 1;
+}
+
+.reveal .slides .daacs img {
+  display: block;
+  margin: 0;
+  line-height: 1;
+  vertical-align: bottom;
 }
 
 .reveal .slides blockquote {
