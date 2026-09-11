@@ -8,16 +8,16 @@ $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
 $body-bg:#325c65ff;
 $body-color: #FFFFFF;
 $link-color: #C7B41D;
-$presentation-font-size-root: 40px;
+$presentation-font-size-root: 50px;
 $git-orange: #ffa500;
 $highlight-term-color: #e2b4c3ff;
 $quote-color: adjust-color($color: $highlight-term-color, $lightness: 5%, $alpha: 1.0);
 
 // headings
-$headingTextTransform: none;
-$h1-font-size: 1.6em !default;
-$h2-font-size: 1.3em !default;
-$h3-font-size: 1.15em !default;
+$presentation-heading-text-transform: none;
+$presentation-h1-font-size: 1.8em !default;
+$presentation-h2-font-size: 1.5em !default;
+$presentation-h3-font-size: 1.3em !default;
 
 /*-- scss:rules --*/
 
@@ -46,7 +46,7 @@ $h3-font-size: 1.15em !default;
 }
 
 .color-yellow {
-    color: #ffed27ff;
+    color: rgb(246, 228, 36);
 }
 
 .small {
@@ -99,13 +99,13 @@ $h3-font-size: 1.15em !default;
 
 .subtitle {
   color: $link-color;
-  font-size: $h2-font-size;
+  font-size: $presentation-h2-font-size;
   font-family: $presentation-heading-font;
 }
 
 .author {
   color: $link-color;
-  font-size: $h2-font-size;
+  font-size: $presentation-h2-font-size;
   font-family: $presentation-heading-font;
 }
 
@@ -217,7 +217,7 @@ span.git-orange {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
   margin: 0;
   flex-grow: 1;
 }
@@ -238,4 +238,29 @@ span.git-orange {
   font-style: italic;
   color: $quote-color;
   border-color: $quote-color;
+}
+
+.reveal .slides img {
+  border-radius: 15px;
+
+  &.no-radius {
+    border-radius: 0;
+  }
+}
+
+// Per-slide vertical centering (not built into Quarto's revealjs format).
+// reveal.css forces display:block !important on slide sections, so the
+// flex layout must also be !important to take effect.
+.reveal .slides section.v-center {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal .slides .fancy-quote {
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+  color: #FFEDC2;
 }

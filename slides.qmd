@@ -6,10 +6,7 @@ format:
     width: 1600
     theme: [moon, slides.scss]
     highlight-style: a11y
-revealjs-plugins:
-  - editable
-filters:
-  - editable
+    slide-number: true
 ---
 
 ## {#title-slide .title-slide .quarto-title-block .center data-menu-title="Title"}
@@ -30,31 +27,88 @@ filters:
 
 ##
 
-![](img/perseverance-rover.png){.absolute height=600px left=750px top=360px}
+![](img/perseverance-rover.png){.absolute .no-radius height=600px left=750px top=360px}
 
-![](img/moon.png){.absolute width=900px left=-120px top=-250px}
+![](img/moon.png){.absolute .no-radius width=900px left=-120px top=-250px}
 
-![](img/astronaut.png){.absolute height=700px left=750px top=-240px}
+![](img/astronaut.png){.absolute .no-radius height=700px left=750px top=-240px}
 
-![](img/milky-way.png){.absolute height=500px left=-270px top=450px}
+![](img/milky-way.png){.absolute .no-radius height=500px left=-270px top=450px}
 
 ![](img/nasa-logo.png){.absolute height=349.6px left=550px top=280px}
 
+::: notes
+- When you first think of NASA, you probably think of space, and rockets and moon rovers
+- Incredible, amazing, awe inspiring
+:::
+
 ## {.center background-image="img/earth-from-space.png" data-menu-title="Earth from space"}
+
+::: notes
+- So much of what NASA does \- and what I now think of when I think of NASA \- is:
+- looking back at Earth
+- using satellites to capture incredible data with different instruments so we can learn about our world
+:::
 
 # 100+ petabytes of data
 
---------------------------------------------------------------------------------
-
-::: daacs
-![](img/DAACS1.png){width="1100px"}
-
-![](img/DAACS2.png){width="1100px"}
-
-![](img/DAACS3.png){width="1100px"}
+::: notes
+- NASA's Earth Science Data Systems manages over 100 petabytes of remote sensing data
 :::
 
-## {.center background-image="img/mentors.png" data-menu-title="Mentors"}
+## {.center data-menu-title="EO data"}
+
+::: {.columns}
+::::: {.column width="40%"}
+![](img/NISAR.png){.absolute .no-radius width=882.7px height=522.9px left=-179.3px top=160.6px style="transform: rotate(90deg);"}
+:::::
+
+::::: {.column width="60%"}
+::::::: daacs
+![](img/DAACS1.png){.no-radius width="1100px"}
+
+![](img/DAACS2.png){.no-radius width="1100px"}
+
+![](img/DAACS3.png){.no-radius width="1100px"}
+:::::::
+:::::
+:::
+
+::: notes
+- contributes to scientific research all over the world,
+- helping us learn about climate change and its impacts, landscape and ocean biology, and water and atmospheric processes.
+- Really important things for the future of the world
+- Scientists need to get it, understand it, use it
+- Getting this data into the hands of scientists is a complicated task that is the primary responsibility of NASA staff across 11 different data centres.
+:::
+
+## {.center background-image="img/mentors.png" data-menu-title="Mentors" visibility="hidden"}
+
+## {.center background-image="img/cloud-paradigm.jpg" data-menu-title="Cloud data" background-size="contain"}
+
+::: notes
+- This task has changed over the last few years
+- Like so many organisations, moved data from on-premesis servers to the cloud
+- Important that researchers can still easily access the data
+- Access patterns to the data have changed
+- Data centre staff have been challenged to both learn and teach new and more efficient ways of accessing and working with cloud-based satellite data.
+:::
+
+##
+
+![](img/earthdata-cookbook-hex.png){width="70%"}
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- So today, I'm gonna tell you all about the Earth Data Cloud Cookbook
+- The main means for disseminating this knowledge and information
+- Talk about how this was made possible through Quarto
+- Quarto was the scaffolding - help meet needs of users and contributors
+- also about the Mentor community at NASA, and the collaboration that makes the work they do possible
+:::
 
 ## {.center background-image="img/openscapes.png" data-menu-title="Openscapes" background-size="contain"}
 
@@ -62,7 +116,7 @@ filters:
 - Don't work for NASA directly \- work with Openscapes, an organization that helps scientists do open, collaborative, and inclusive data-intensive science
 :::
 
-## Technical & Social Infrastructure Together with Policy
+## Technical & Social Infrastructure Together
 
 ![](img/openscapes_hex.png){.absolute height=220px left=1339px top=-36px}
 
@@ -75,31 +129,25 @@ filters:
   Openscapes provides scaffolding and space and facilitation
 :::
 
-## NASA-Openscapes
+## NASA Openscapes Mentors
 
 ::: columns
-::::: {.column width="50%" .center-x}
+::::: {.column width="40%" .center-x}
 ![](img/nasa-logo.png){width="40%"} ![](img/openscapes_hex.png){width="30%"}
 
 ![](img/daacs-logos.png)
 :::::
 
-::::: {.column width="50%"}
-### Mentor community across NASA Earth science data centers that helps support users through:
-
-- Co-creating common tutorials
-- Hosting cloud training events
-- Practicing open science ourselves\!
-- Open source code, communities, software development
+::::: {.column width="60%"}
+![](img/mentors.png){width="100%"}
 :::::
 :::
-
-## DAACS creating tutorials (placeholder)
 
 ::: notes
 - Data Center staff teach workshops on cloud data access, and from these produce amazing tutorials ...
 - Reproducible tutorials are at the heart of teaching scientists modern data science workflows
-- combining data access, code, and scientific context --- are a critical resource for users and for enabling NASA's cloud migration
+- combining data access, code, and scientific context
+- a critical resource for users
 - Data Centers were doing this in silos
   - duplicated effort
   - Not learning from each other
@@ -108,31 +156,27 @@ filters:
 ## This may sound familiar...
 
 ::: fragment
-![](img/hello-quarto.png){.absolute height=777px left=-83.6px top=130px style="border-radius: 20px;"}
+![](img/hello-quarto.png){.absolute height=777px left=-83.6px top=130px}
 
-![](img/julie-mine.png){.absolute width=800px left=860px top=-19px style="border-radius: 20px;"}
+![](img/julie-mine.png){.absolute width=800px left=860px top=-19px}
 :::
 
 ::: notes
-Julie Lowndes - head of Openscapes - gave 2022 rstudio::conf keynote alongside Mine Çetinkaya-Rundel - introducing Quarto to the world.
-In part because of work with RStudio and JJ Allaire where NASA Openscapes was a testing ground for developing Quarto while beginning development of the cookbook
+- Julie Lowndes - founder and lead of Openscapes
+- keynoted the global launch of quarto with Mine Citenkaya-Rundel.
+- based on the work she and NASA Mentors had done with JJ Allaire.
+- Julie and the Mentors were the first external users of Quarto, and had spent hours in Zoom rooms during Covid screensharing with JJ and the nascent Quarto team
 :::
 
-## The Earthdata Cloud Cookbook
+## The Earthdata Cloud Cookbook {.center .v-center}
 
 ::: columns
-::::: {.column width="55%"}
-- Built with Quarto
-- Brings together documentation + Python and R tutorials
-- Meets the needs of both **users** and **contributors**
-- A growing, dynamic repository of tutorials & how-tos
+::::: {.column width="75%"}
+![](img/cookbook-homepage.png)
 :::::
 
-::::: {.column width="5%"}
-:::::
-
-::::: {.column width="40%"}
-![](img/earthdata-cookbook-hex.png){width="70%"}
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
 :::::
 :::
 
@@ -141,43 +185,139 @@ In part because of work with RStudio and JJ Allaire where NASA Openscapes was a 
 :::
 
 ::: notes
-- Quarto as a multilingual publishing tool = scaffolding for a community
+- Quarto Website
+- Published with GitHub pages
+- Brings together documentation + Python and R tutorials
+- Structure: tried to follow a framework to separate different types of content
+- Help users find what they need, and help contributors know where to put new content
+  - How-to: short, focused, task-oriented
+
+  - Reference: Other technical reference material, links to other sources
 :::
 
-## Earthdata Cloud Cookbook {.center}
+## Explanation {.center}
 
-![](img/cookbook-homepage.png)
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-homepage-core-concepts.png)
+:::::
 
-## Diataxis: a framework for documentation {.bg-color background-image="img/diataxis.png" background-size="contain"}
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
 
 ::: footer
-<https://diataxis.fr>
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
 :::
 
 ::: notes
-Diátaxis divides documentation into four types: - tutorials, how-to guides, reference, and explanation --- based on two questions: is the user studying (learning) or working (doing), and is the content practical (action-oriented) or theoretical (knowledge)?
-The key insight is that these modes have different and incompatible needs, so mixing them (e.g., teaching concepts inside a how-to) makes documentation worse for everyone; keeping them separate serves users best at each moment.
+- Explanation: Core concepts, background, and other information
 :::
 
-## Constraints
+## Tutorials {.center}
 
-::: incremental
-- **Contributors** use R and Python
-- **Users** use R and Python
-- **Jupyter Notebooks** are cumbersome
-- People **like** Jupyter Notebooks
-- Contributors are **scientists**, not all are software engineers
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-homepage-tutorials.png)
+:::::
+
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- Tutorial: longer, more in-depth, with scientific context
+:::
+
+## How-To {.center}
+
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-homepage-howto.png)
+:::::
+
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- How-To: short, focused, task-oriented
+:::
+
+## Reference {.center}
+
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-homepage-reference.png)
+:::::
+
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- Reference: Other technical reference material, links to other sources
+:::
+
+##
+
+::: {.columns}
+::::: {.column}
+### How-To
+
+![](img/cookbook-howto.png)
+:::::
+
+::::: {.column}
+### Tutorial
+
+![](img/cookbook-tutorial.png)
+:::::
 :::
 
 ## Why Quarto?
 
-::: incremental
+::: {.columns }
+::::: {.column .fragment}
+### Constraints
+
+::::::: incremental
+- **Contributors** use R and Python
+- **Users** use R and Python
+- **Jupyter Notebooks** are cumbersome
+- People **love** Jupyter Notebooks
+- Contributors are **scientists**, not all are software engineers
+:::::::
+:::::
+
+::::: {.column .fragment}
+### Solutions
+
+::::::: incremental
 - Multilingual
 - Quarto file format
 - Publishing tools
   - GitHub pages
   - Freeze
   - Multi-format download (ipynb)
+:::::::
+:::::
 :::
 
 ::: notes
@@ -198,4 +338,95 @@ The key insight is that these modes have different and incompatible needs, so mi
     - Options to render to html-pdf-etc
 :::
 
+##
+
 ![](img/other-formats.png)
+
+# Collaborative coworking is a force multiplier
+
+## What is coworking?
+
+::: {.columns}
+::::: {.column width="60%"}
+![](img/Zoomie_MentorsRetreat2024_NASA-Openscapes.png)
+:::::
+
+::::: {.column width="40%"}
+![](img/coworking-doc.png)
+:::::
+:::
+
+::: notes
+- Openscapes facilitates a biweekly coworking session
+- provides scaffolding by scheduling, creating shared notes docs
+- NASA mentors come together to work on the cookbook
+  - Discuss what needs to be done / what we want to work on
+  - Match up expertise / interest with needs
+  - Screenshare to get feedback or solve a problem together.
+    Seeing how other people work is a big part of transition to working more openly and collaboratively.
+  - Create new content
+  - Review PRs
+  - Onboard new contributors
+- Having a tool that doesn't require too much effort to use/learn if you have a different technical background makes coworking easier
+:::
+
+## Other cookbook sites (placeholder)
+
+::: notes
+- building these skills has enabled other cookbook like sites - cookbook "network"
+:::
+
+## Impact {visibility="hidden"}
+
+::: {.fancy-quote}
+"Perhaps just as important as what we've done however, are **mindsets** we've grown into along the way.
+It's okay to **share imperfect works** in progress.
+The virtual environment **can be conducive** to laughter and connection.
+Ideas are not too big or too small to share.
+We are better at dreaming and implementing the future **together**."
+
+**- Cassie Vest**
+:::
+
+--------------------------------------------------------------------------------
+
+::: {.columns}
+::::: {.column width="70%"}
+::::::: {.fancy-quote}
+"Before Openscapes and Quarto, I was hesitant to put unfinished tutorials ... on a public platform, but I've really come to appreciate this new open way of collaborating and developing in a way that [**lets others learn and scale up our efforts**]{.color-yellow}.
+I see Quarto as [**a tool that enables us**]{.color-yellow} to open up and share our process and artifacts in a way that is friendly to the broader data user community."
+:::::::
+:::::
+
+::::: {.column width="3%"}
+:::::
+
+::::: {.column width="27%"}
+![](img/catalina.png)
+:::::
+:::
+
+::: {.fancy-quote}
+**- Catalina Oaida Taglialatela**
+:::
+
+::: notes
+- This has really led NASA to work more openly.
+- Pushed ourselves.
+- We're learning together, opening.
+- Contribution/onboarding section is part of the book, not "frontstage/backstage"
+:::
+
+--------------------------------------------------------------------------------
+
+![](img/people-tooling.png){.absolute height=598px left=70px top=231.7px}
+
+<!-- (slide \- tools+people with Quarto in the middle. Or Quarto with tools, NASA \+ Openscapes in the middle, photo of people on the right) -->
+
+::: notes
+- Story of Tools \+ People
+- Combination of:
+- Mission
+- strong community structures
+- open, easy to use tools
+:::
