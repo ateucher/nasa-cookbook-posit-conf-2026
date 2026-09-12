@@ -248,6 +248,18 @@ span.git-orange {
   }
 }
 
+// Inline logo marks in headings: center them on the line so they
+// align with the emoji (which sits on the text baseline)
+.reveal .slides .heading-logo {
+  border-radius: 0;
+  vertical-align: middle;
+}
+
+.reveal .slides .heading-emoji {
+  font-size: 2em;
+  vertical-align: middle;
+}
+
 // Per-slide vertical centering (not built into Quarto's revealjs format).
 // reveal.css forces display:block !important on slide sections, so the
 // flex layout must also be !important to take effect.
@@ -261,6 +273,6 @@ span.git-orange {
 .reveal .slides .fancy-quote {
   font-style: italic;
   font-size: 1.2em;
-  text-align: center;
+  // text-align: center;
   color: #FFEDC2;
 }

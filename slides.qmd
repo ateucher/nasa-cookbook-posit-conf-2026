@@ -357,51 +357,51 @@ format:
 :::
 
 ::: notes
-- Openscapes facilitates a biweekly coworking session
-- provides scaffolding by scheduling, creating shared notes docs
-- NASA mentors come together to work on the cookbook
-  - Discuss what needs to be done / what we want to work on
-  - Match up expertise / interest with needs
-  - Screenshare to get feedback or solve a problem together.
-    Seeing how other people work is a big part of transition to working more openly and collaboratively.
-  - Create new content
-  - Review PRs
-  - Onboard new contributors
+- Biweekly coworking session with NASA Mentors
+- Openscapes provides scaffolding by scheduling, creating shared notes docs
+- come together to work on the cookbook
+- I lead these sessions, looking out for what they need
+- Discuss what needs to be done / what we want to work on
+- Match up expertise / interest with needs
+- Screenshare to get feedback or solve a problem together.
+  Seeing how other people work is a big part of transition to working more openly and collaboratively.
+- Create new content
+- Create issues, Review PRs
+- Onboard new contributors
+- We (Openscapes) put time into the quarto scaffolding side, maintenance...
 - Having a tool that doesn't require too much effort to use/learn if you have a different technical background makes coworking easier
 :::
 
-## Other cookbook sites (placeholder)
+# ![](img/nasa-logo.png){.heading-logo height=2em} <span class="heading-emoji">❤️</span> ![](img/quarto-logo-trademark-light.svg){.heading-logo height=2em} # {data-menu-title="NASA loves Quarto"}
+
+## Quarto is helping spread open practices across NASA
+
+![](img/cloud-hd5-paper.png){.fragment .absolute width=527px left=-60px top=120px}
+
+![](img/nasa-data-governance.png){.fragment .absolute width=560px left=510px top=500px}
+
+![](img/virtual-stores-nasa.png){.fragment .absolute width=542px left=1115px top=120px}
 
 ::: notes
-- building these skills has enabled other cookbook like sites - cookbook "network"
-:::
-
-## Impact {visibility="hidden"}
-
-::: {.fancy-quote}
-"Perhaps just as important as what we've done however, are **mindsets** we've grown into along the way.
-It's okay to **share imperfect works** in progress.
-The virtual environment **can be conducive** to laughter and connection.
-Ideas are not too big or too small to share.
-We are better at dreaming and implementing the future **together**."
-
-**- Cassie Vest**
+- use of quarto across NASA
+- helping fuel a shift to open documentation and sharing early.
+- other cookbook like sites - cookbook "network"
 :::
 
 --------------------------------------------------------------------------------
 
 ::: {.columns}
-::::: {.column width="70%"}
+::::: {.column width="75%"}
 ::::::: {.fancy-quote}
 "Before Openscapes and Quarto, I was hesitant to put unfinished tutorials ... on a public platform, but I've really come to appreciate this new open way of collaborating and developing in a way that [**lets others learn and scale up our efforts**]{.color-yellow}.
 I see Quarto as [**a tool that enables us**]{.color-yellow} to open up and share our process and artifacts in a way that is friendly to the broader data user community."
 :::::::
 :::::
 
-::::: {.column width="3%"}
+::::: {.column width="2%"}
 :::::
 
-::::: {.column width="27%"}
+::::: {.column width="23%"}
 ![](img/catalina.png)
 :::::
 :::
@@ -411,6 +411,7 @@ I see Quarto as [**a tool that enables us**]{.color-yellow} to open up and share
 :::
 
 ::: notes
+- TAG-LEE-AH LA-TELL-AH
 - This has really led NASA to work more openly.
 - Pushed ourselves.
 - We're learning together, opening.
