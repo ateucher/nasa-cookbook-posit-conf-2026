@@ -25,17 +25,7 @@ format:
 </div>
 </div>
 
-##
-
-![](img/perseverance-rover.png){.absolute .no-radius height=600px left=750px top=360px}
-
-![](img/moon.png){.absolute .no-radius width=900px left=-120px top=-250px}
-
-![](img/astronaut.png){.absolute .no-radius height=700px left=750px top=-240px}
-
-![](img/milky-way.png){.absolute .no-radius height=500px left=-270px top=450px}
-
-![](img/nasa-logo.png){.absolute height=349.6px left=550px top=280px}
+## {background-image="img/nasa-space-collage.png" data-menu-title="NASA collage" background-size="cover"}
 
 ::: notes
 - When you first think of NASA, you probably think of space, and rockets and moon rovers
