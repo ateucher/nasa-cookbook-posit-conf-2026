@@ -1,2 +1,4 @@
 project:
   type: default
+  render:
+    - index.qmd
