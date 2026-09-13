@@ -293,29 +293,24 @@ format:
 
 ## Why Quarto?
 
-::: {.columns }
-::::: {.column .fragment}
 ### Constraints
 
-::::::: incremental
-- **Contributors** use R and Python
-- **Users** use R and Python
-- **Jupyter Notebooks** are cumbersome
-- People **love** Jupyter Notebooks
-- Contributors are **scientists**, not all are software engineers
+::: {.columns }
+::::: {.column width="60%"}
+::::::: {.fragment}
+- [**Contributors**]{.color-yellow} use R and Python
 :::::::
-:::::
-
-::::: {.column .fragment}
-### Solutions
-
-::::::: incremental
-- Multilingual
-- Quarto file format
-- Publishing tools
-  - GitHub pages
-  - Freeze
-  - Multi-format download (ipynb)
+::::::: {.fragment}
+- [**Users**]{.color-yellow} use R and Python
+:::::::
+::::::: {.fragment}
+- [**Jupyter Notebooks**]{.color-yellow} are cumbersome
+:::::::
+::::::: {.fragment}
+- People [**love**]{.color-yellow} Jupyter Notebooks
+:::::::
+::::::: {.fragment}
+- Contributors are [**scientists**]{.color-yellow}, not all are software engineers
 :::::::
 :::::
 :::
@@ -323,7 +318,7 @@ format:
 ::: notes
 - Multilingual \-
   - Meet contributors where they are and meet needs of diverse users
-  - Contirbute via ipynb or qmd, Python or R
+  - Contribute via ipynb or qmd, Python or R
   - Standardized format look/feel
   - Why this is important \- specific examples from the cookbook that other people may be able to relate to.
 - Quarto file format
@@ -338,7 +333,53 @@ format:
     - Options to render to html-pdf-etc
 :::
 
-##
+## Why Quarto?
+
+::: {.columns }
+::::: {.column width="60%"}
+### Constraints
+
+::::::: {.fragment .custom .check-green fragment-index=1}
+- [**Contributors**]{.color-yellow} use R and Python
+:::::::
+::::::: {.fragment .custom .check-green fragment-index=1}
+- [**Users**]{.color-yellow} use R and Python
+:::::::
+::::::: {.fragment .custom .check-green fragment-index=2}
+- [**Jupyter Notebooks**]{.color-yellow} are cumbersome
+:::::::
+::::::: {.fragment .custom .check-green fragment-index=3}
+- People [**love**]{.color-yellow} Jupyter Notebooks
+:::::::
+::::::: {.fragment .custom .check-green fragment-index=4}
+- Contributors are [**scientists**]{.color-yellow}, not all are software engineers
+:::::::
+:::::
+
+::::: {.column width="40%"}
+### Solutions
+
+::::::: {.fragment fragment-index=1}
+- Multilingual
+:::::::
+
+::::::: {.fragment fragment-index=2}
+- Quarto file format
+:::::::
+
+::::::: {.fragment fragment-index=3}
+- Multi-format download (ipynb)
+:::::::
+
+::::::: {.fragment fragment-index=4}
+- Publishing tools
+  - GitHub pages
+  - Freeze
+:::::::
+:::::
+:::
+
+## {visibility="hidden" data-menu-title="jupyter format"}
 
 ![](img/other-formats.png)
 
@@ -347,7 +388,7 @@ format:
 ## What is coworking?
 
 ::: {.columns}
-::::: {.column width="60%"}
+::::: {.column width="60%" .v-center}
 ![](img/Zoomie_MentorsRetreat2024_NASA-Openscapes.png)
 :::::
 
@@ -384,8 +425,11 @@ format:
 
 ::: notes
 - use of quarto across NASA
-- helping fuel a shift to open documentation and sharing early.
+- manuscript preprints
+- governance documents
+- technical documentation
 - other cookbook like sites - cookbook "network"
+- helping fuel a shift to open documentation and sharing early.
 :::
 
 --------------------------------------------------------------------------------
@@ -420,14 +464,14 @@ I see Quarto as [**a tool that enables us**]{.color-yellow} to open up and share
 
 --------------------------------------------------------------------------------
 
-![](img/people-tooling.png){.absolute height=598px left=70px top=231.7px}
-
-<!-- (slide \- tools+people with Quarto in the middle. Or Quarto with tools, NASA \+ Openscapes in the middle, photo of people on the right) -->
+![](img/people-tooling-w-extras-white.png)
 
 ::: notes
 - Story of Tools \+ People
 - Combination of:
-- Mission
-- strong community structures
-- open, easy to use tools
+- Dedicated people (NASA Mentors)
+- strong community structures and open practices (Openscapes)
+- open, easy to use tools (Quarto)
+- Build things like the Earthdata Cloud Cookbook
+- Ultimately helps to power the critical science we need to learn more about our world and what we can do to help make it better.
 :::

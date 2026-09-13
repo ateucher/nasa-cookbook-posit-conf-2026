@@ -260,6 +260,12 @@ span.git-orange {
   vertical-align: middle;
 }
 
+// Custom fragment: appends a green checkbox when the fragment is revealed
+.reveal .slides section .fragment.check-green.visible::after {
+  filter: none;
+  content: "✅";
+}
+
 // Per-slide vertical centering (not built into Quarto's revealjs format).
 // reveal.css forces display:block !important on slide sections, so the
 // flex layout must also be !important to take effect.
