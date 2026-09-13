@@ -293,25 +293,28 @@ format:
 
 ## Why Quarto?
 
-### Constraints
+### Considerations {.color-white}
 
-::: {.columns }
+::: {.columns}
 ::::: {.column width="60%"}
 ::::::: {.fragment}
-- [**Contributors**]{.color-yellow} use R and Python
+- [**Contributors**]{.color-gold} use R and Python
 :::::::
 ::::::: {.fragment}
-- [**Users**]{.color-yellow} use R and Python
+- [**Users**]{.color-gold} use R and Python
 :::::::
 ::::::: {.fragment}
-- [**Jupyter Notebooks**]{.color-yellow} are cumbersome
+- [**Jupyter Notebooks**]{.color-gold} are cumbersome
 :::::::
 ::::::: {.fragment}
-- People [**love**]{.color-yellow} Jupyter Notebooks
+- People [**love**]{.color-gold} Jupyter Notebooks
 :::::::
 ::::::: {.fragment}
-- Contributors are [**scientists**]{.color-yellow}, not all are software engineers
+- Contributors are [**scientists**]{.color-gold}, not all are software engineers
 :::::::
+:::::
+
+::::: {.column width="40%"}
 :::::
 :::
 
@@ -335,46 +338,46 @@ format:
 
 ## Why Quarto?
 
-::: {.columns }
+::: {.columns}
 ::::: {.column width="60%"}
-### Constraints
+### Considerations {.color-white}
 
 ::::::: {.fragment .custom .check-green fragment-index=1}
-- [**Contributors**]{.color-yellow} use R and Python
+- [**Contributors**]{.color-gold} use R and Python
 :::::::
 ::::::: {.fragment .custom .check-green fragment-index=1}
-- [**Users**]{.color-yellow} use R and Python
+- [**Users**]{.color-gold} use R and Python
 :::::::
 ::::::: {.fragment .custom .check-green fragment-index=2}
-- [**Jupyter Notebooks**]{.color-yellow} are cumbersome
+- [**Jupyter Notebooks**]{.color-gold} are cumbersome
 :::::::
 ::::::: {.fragment .custom .check-green fragment-index=3}
-- People [**love**]{.color-yellow} Jupyter Notebooks
+- People [**love**]{.color-gold} Jupyter Notebooks
 :::::::
 ::::::: {.fragment .custom .check-green fragment-index=4}
-- Contributors are [**scientists**]{.color-yellow}, not all are software engineers
+- Contributors are [**scientists**]{.color-gold}, not all are software engineers
 :::::::
 :::::
 
 ::::: {.column width="40%"}
-### Solutions
+### ![](img/quarto-logo-trademark-light.svg) {margin-bottom="0"}
 
 ::::::: {.fragment fragment-index=1}
-- Multilingual
+- Multilingual: [R + Python]{.color-gold}
 :::::::
 
 ::::::: {.fragment fragment-index=2}
-- Quarto file format
+- `.qmd` file format
 :::::::
 
 ::::::: {.fragment fragment-index=3}
-- Multi-format download (ipynb)
+- Multi-format input and output (`.ipynb`)
 :::::::
 
 ::::::: {.fragment fragment-index=4}
 - Publishing tools
   - GitHub pages
-  - Freeze
+  - `quarto freeze`
 :::::::
 :::::
 :::
@@ -437,8 +440,8 @@ format:
 ::: {.columns}
 ::::: {.column width="75%"}
 ::::::: {.fancy-quote}
-"Before Openscapes and Quarto, I was hesitant to put unfinished tutorials ... on a public platform, but I've really come to appreciate this new open way of collaborating and developing in a way that [**lets others learn and scale up our efforts**]{.color-yellow}.
-I see Quarto as [**a tool that enables us**]{.color-yellow} to open up and share our process and artifacts in a way that is friendly to the broader data user community."
+"Before Openscapes and Quarto, I was hesitant to put unfinished tutorials ... on a public platform, but I've really come to appreciate this new open way of collaborating and developing in a way that [**lets others learn and scale up our efforts**]{.color-gold}.
+I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share our process and artifacts in a way that is friendly to the broader data user community."
 :::::::
 :::::
 

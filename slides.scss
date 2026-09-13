@@ -42,11 +42,21 @@ $presentation-h3-font-size: 1.3em !default;
 }
 
 .color-gold {
-    color: #C7B41D;
+    color: rgb(255, 215, 0);
 }
 
 .color-yellow {
     color: rgb(246, 228, 36);
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+// Headings: the theme's .reveal h1..h6 rule (0,1,1) out-specifies a plain
+// class, so heading color classes need the extra specificity
+.reveal :is(h1, h2, h3, h4, h5, h6).color-white {
+    color: #FFFFFF;
 }
 
 .small {
@@ -260,10 +270,20 @@ span.git-orange {
   vertical-align: middle;
 }
 
+// Logo image inside an h3: match the text height (inline attribute blocks
+// at the end of a heading get parsed as heading attributes, not img ones)
+.reveal .slides h3 > img {
+  border-radius: 0;
+  height: 0.95em;
+  vertical-align: top;
+  margin-bottom: 0;
+}
+
 // Custom fragment: appends a green checkbox when the fragment is revealed
-.reveal .slides section .fragment.check-green.visible::after {
-  filter: none;
-  content: "✅";
+// Target the li so the checkbox stays inline with the bullet text;
+// on the div itself it lands after the block-level ul, on its own line
+.reveal .slides section .fragment.check-green.visible li:last-child::after {
+  content: " ✅";
 }
 
 // Per-slide vertical centering (not built into Quarto's revealjs format).
