@@ -74,13 +74,17 @@ format:
 
 ## {.center background-image="img/mentors.png" data-menu-title="Mentors" visibility="hidden"}
 
-## {.center background-image="img/cloud-paradigm.jpg" data-menu-title="Cloud data" background-size="contain"}
+##
+
+::: {.center-x}
+![](img/cloud-shift.png)
+:::
 
 ::: notes
 - This task has changed over the last few years
 - Like so many organisations, moved data from on-premesis servers to the cloud
-- Important that researchers can still easily access the data
 - Access patterns to the data have changed
+- Important that researchers can still easily access the data
 - Data centre staff have been challenged to both learn and teach new and more efficient ways of accessing and working with cloud-based satellite data.
 :::
 
@@ -94,16 +98,21 @@ format:
 
 ::: notes
 - So today, I'm gonna tell you all about the Earth Data Cloud Cookbook
-- The main means for disseminating this knowledge and information
+- Important platform for communicating best practices for working NASA Earth Science data in the cloud
 - Talk about how this was made possible through Quarto
-- Quarto was the scaffolding - help meet needs of users and contributors
-- also about the Mentor community at NASA, and the collaboration that makes the work they do possible
+- Quarto is the scaffolding - help meet needs of users and contributors
+- also about the community at NASA, and the collaboration that makes the work they do possible
 :::
 
 ## {.center background-image="img/openscapes.png" data-menu-title="Openscapes" background-size="contain"}
 
+::: footer
+Artwork by [Allison Horst](https://www.allisonhorst.com/)
+:::
+
 ::: notes
-- Don't work for NASA directly \- work with Openscapes, an organization that helps scientists do open, collaborative, and inclusive data-intensive science
+- Don't work for NASA directly
+- Openscapes, an organization that helps scientists do open, collaborative, and inclusive data-intensive science
 :::
 
 ## Technical & Social Infrastructure Together
@@ -134,13 +143,15 @@ format:
 :::
 
 ::: notes
-- Data Center staff teach workshops on cloud data access, and from these produce amazing tutorials ...
-- Reproducible tutorials are at the heart of teaching scientists modern data science workflows
-- combining data access, code, and scientific context
-- a critical resource for users
+- Working with NASA since 2021 to support Earth Science Data Center staff in their migration to the cloud
+- Data Center staff teach workshops on cloud data access, and from these produce amazing tutorials
+- for teaching scientists modern data science workflows
+- combining best practices for cloud data access, analysis, and scientific context
+- a critical resource for users, BUT
 - Data Centers were doing this in silos
   - duplicated effort
   - Not learning from each other
+- Openscapes has been working with mentors to build a framework for them to collaborate to create learning resources for their teams and communities.
 :::
 
 ## This may sound familiar...
@@ -153,7 +164,7 @@ format:
 
 ::: notes
 - Julie Lowndes - founder and lead of Openscapes
-- keynoted the global launch of quarto with Mine Citenkaya-Rundel.
+- keynoted the global launch of quarto with Mine Cetinkaya-Rundel.
 - based on the work she and NASA Mentors had done with JJ Allaire.
 - Julie and the Mentors were the first external users of Quarto, and had spent hours in Zoom rooms during Covid screensharing with JJ and the nascent Quarto team
 :::
@@ -178,11 +189,9 @@ format:
 - Quarto Website
 - Published with GitHub pages
 - Brings together documentation + Python and R tutorials
+- Users are varied in their needs and scientific and technical backgrounds
 - Structure: tried to follow a framework to separate different types of content
 - Help users find what they need, and help contributors know where to put new content
-  - How-to: short, focused, task-oriented
-
-  - Reference: Other technical reference material, links to other sources
 :::
 
 ## Explanation {.center}
