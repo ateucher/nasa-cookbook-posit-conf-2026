@@ -399,18 +399,13 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 - Quarto file format
   - Contributors seeing benefits over ipynb (slowly) \+1
   - Plain text file (?)
-    easy to version control (difficult with ipynb)
+  - easy to version control (difficult with ipynb)
 - Multi-format download (ipynb) (people like notebooks)
-  - Options to render to html-pdf-etc
 - Publishing tools
   - GitHub pages
   - Freeze
     - Don't need to execute whole book
 :::
-
-## {visibility="hidden" data-menu-title="jupyter format"}
-
-![](img/other-formats.png)
 
 # Collaborative coworking is a force multiplier
 
