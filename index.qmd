@@ -296,6 +296,27 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 - core content are the tutorials and how-tos
 :::
 
+## Contributing
+
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-contributing.png)
+:::::
+
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- Contribution/onboarding section is part of the book
+- Deliberate, not "frontstage/backstage"
+:::
+
 ## Why Quarto?
 
 ### Considerations {.color-white}
@@ -471,10 +492,6 @@ I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share o
 
 ::: notes
 - TAG-LEE-AH LA-TELL-AH
-- This has really led NASA to work more openly.
-- Pushed ourselves.
-- We're learning together, opening.
-- Contribution/onboarding section is part of the book, not "frontstage/backstage"
 :::
 
 --------------------------------------------------------------------------------
