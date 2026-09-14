@@ -256,26 +256,6 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 - Youtube to fix dishwasher
 :::
 
-## Reference {.center}
-
-::: columns
-::::: {.column width="75%"}
-![](img/cookbook-homepage-reference.png)
-:::::
-
-::::: {.column width="25%" .center}
-![](img/earthdata-cookbook-hex.png)
-:::::
-:::
-
-::: footer
-<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
-:::
-
-::: notes
-- Reference: Other technical reference material, links to other sources
-:::
-
 ##
 
 ::: {.columns}
@@ -294,6 +274,26 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 
 ::: notes
 - core content are the tutorials and how-tos
+:::
+
+## Reference {.center}
+
+::: columns
+::::: {.column width="75%"}
+![](img/cookbook-homepage-reference.png)
+:::::
+
+::::: {.column width="25%" .center}
+![](img/earthdata-cookbook-hex.png)
+:::::
+:::
+
+::: footer
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook>
+:::
+
+::: notes
+- Reference: Other technical reference material, links to other sources
 :::
 
 ## Contributing
@@ -412,7 +412,7 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 ::: notes
 - We are in a Quarto session, and I want to emphasize how critical Quarto has been
 - But I also want to make sure to center the Mentors at NASA, and their passion, expertise, and leadership.
-- Talk about the collaborative coworking that has been a critical part of the success of the cookbook, and all of the other work mentors are doing to support their teams and communities.
+- Talk about the collaborative coworking that has been a critical part of the success of the cookbook.
 :::
 
 ## What is coworking?
@@ -446,23 +446,6 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 
 # ![](img/nasa-logo.png){.heading-logo height=2em} <span class="heading-emoji">❤️</span> ![](img/quarto-logo-trademark-light.svg){.heading-logo height=2em} # {data-menu-title="NASA loves Quarto"}
 
-## Quarto is helping spread open practices across NASA
-
-![](img/cloud-hd5-paper.png){.fragment .absolute width=527px left=-60px top=120px}
-
-![](img/nasa-data-governance.png){.fragment .absolute width=560px left=510px top=500px}
-
-![](img/virtual-stores-nasa.png){.fragment .absolute width=542px left=1115px top=120px}
-
-::: notes
-- use of quarto across NASA
-- manuscript preprints
-- governance documents
-- technical documentation
-- other cookbook like sites - cookbook "network"
-- helping fuel a shift to open documentation and sharing early.
-:::
-
 --------------------------------------------------------------------------------
 
 ::: {.columns}
@@ -487,6 +470,23 @@ I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share o
 
 ::: notes
 - TAG-LEE-AH LA-TELL-AH
+:::
+
+## Quarto is helping spread open practices across NASA
+
+![](img/cloud-hd5-paper.png){.fragment .absolute width=527px left=-60px top=120px}
+
+![](img/nasa-data-governance.png){.fragment .absolute width=560px left=510px top=500px}
+
+![](img/virtual-stores-nasa.png){.fragment .absolute width=542px left=1115px top=120px}
+
+::: notes
+- use of quarto across NASA
+- manuscript preprints
+- governance documents
+- technical documentation
+- other cookbook like sites - cookbook "network"
+- helping fuel a shift to open documentation and sharing early.
 :::
 
 --------------------------------------------------------------------------------
