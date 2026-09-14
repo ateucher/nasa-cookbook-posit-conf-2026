@@ -35,7 +35,7 @@ format:
 ## {.center background-image="img/earth-from-space.png" data-menu-title="Earth from space"}
 
 ::: notes
-- So much of what NASA does \- and what I now think of when I think of NASA \- is:
+- What I now think of when I think of NASA \- is:
 - looking back at Earth
 - using satellites to capture incredible data with different instruments so we can learn about our world
 :::
@@ -43,7 +43,7 @@ format:
 # 100+ petabytes of data
 
 ::: notes
-- NASA's Earth Science Data Systems manages over 100 petabytes of remote sensing data
+- NASA's Earth Science program manages over 100 petabytes of remote sensing data
 :::
 
 ## {.center data-menu-title="EO data"}
@@ -83,6 +83,7 @@ format:
 ::: notes
 - This task has changed over the last few years
 - Like so many organisations, moved data from on-premesis servers to the cloud
+- Many advantages
 - Access patterns to the data have changed
 - Important that researchers can still easily access the data
 - Data centre staff have been challenged to both learn and teach new and more efficient ways of accessing and working with cloud-based satellite data.
@@ -252,6 +253,7 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 
 ::: notes
 - How-To: short, focused, task-oriented
+- Youtube to fix dishwasher
 :::
 
 ## Reference {.center}
@@ -290,6 +292,10 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 :::::
 :::
 
+::: notes
+- core content are the tutorials and how-tos
+:::
+
 ## Why Quarto?
 
 ### Considerations {.color-white}
@@ -315,24 +321,6 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 
 ::::: {.column width="40%"}
 :::::
-:::
-
-::: notes
-- Multilingual \-
-  - Meet contributors where they are and meet needs of diverse users
-  - Contribute via ipynb or qmd, Python or R
-  - Standardized format look/feel
-  - Why this is important \- specific examples from the cookbook that other people may be able to relate to.
-- Quarto file format
-  - Contributors seeing benefits over ipynb (slowly) \+1
-  - Plain text file (?)
-    easy to version control (difficult with ipynb)
-- Publishing tools
-  - GitHub pages
-  - Freeze
-    - Don't need to execute whole book
-  - Multi-format download (ipynb) (people like notebooks)
-    - Options to render to html-pdf-etc
 :::
 
 ## Why Quarto?
@@ -381,11 +369,35 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 :::::
 :::
 
+::: notes
+- Multilingual \-
+  - Meet contributors where they are and meet needs of diverse users
+  - Contribute via ipynb or qmd, Python or R
+  - Standardized format look/feel
+  - Why this is important \- specific examples from the cookbook that other people may be able to relate to.
+- Quarto file format
+  - Contributors seeing benefits over ipynb (slowly) \+1
+  - Plain text file (?)
+    easy to version control (difficult with ipynb)
+- Multi-format download (ipynb) (people like notebooks)
+  - Options to render to html-pdf-etc
+- Publishing tools
+  - GitHub pages
+  - Freeze
+    - Don't need to execute whole book
+:::
+
 ## {visibility="hidden" data-menu-title="jupyter format"}
 
 ![](img/other-formats.png)
 
 # Collaborative coworking is a force multiplier
+
+::: notes
+- We are in a Quarto session, and I want to emphasize how critical Quarto has been
+- But I also want to make sure to center the Mentors at NASA, and their passion, expertise, and leadership.
+- Talk about the collaborative coworking that has been a critical part of the success of the cookbook, and all of the other work mentors are doing to support their teams and communities.
+:::
 
 ## What is coworking?
 
@@ -400,17 +412,18 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 :::
 
 ::: notes
-- Biweekly coworking session with NASA Mentors
+- Biweekly hour and a half session, on Zoom, with NASA Mentors
 - Openscapes provides scaffolding by scheduling, creating shared notes docs
 - come together to work on the cookbook
 - I lead these sessions, looking out for what they need
 - Discuss what needs to be done / what we want to work on
 - Match up expertise / interest with needs
-- Screenshare to get feedback or solve a problem together.
-  Seeing how other people work is a big part of transition to working more openly and collaboratively.
-- Create new content
+- Breakout rooms to get things done
+- Design and create new content
 - Create issues, Review PRs
 - Onboard new contributors
+- Screenshare to get feedback or solve a problem together.
+- Seeing how other people work is a big part of transition to working more openly and collaboratively.
 - We (Openscapes) put time into the quarto scaffolding side, maintenance...
 - Having a tool that doesn't require too much effort to use/learn if you have a different technical background makes coworking easier
 :::
@@ -471,9 +484,9 @@ I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share o
 ::: notes
 - Story of Tools \+ People
 - Combination of:
-- Dedicated people (NASA Mentors)
-- strong community structures and open practices (Openscapes)
-- open, easy to use tools (Quarto)
+  - Dedicated people (NASA Mentors)
+  - strong community structures and open practices (Openscapes)
+  - open, easy to use tools (Quarto)
 - Build things like the Earthdata Cloud Cookbook
-- Ultimately helps to power the critical science we need to learn more about our world and what we can do to help make it better.
+- Ultimately helps to power the science that's critical for us to learn more about our world and what we can do to help make it better.
 :::
