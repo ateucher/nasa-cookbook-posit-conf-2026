@@ -4,6 +4,7 @@
 @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Gochi+Hand&display=swap';
 
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-font: "Atkinson Hyperlegible", sans-serif;
 
 $body-bg:#325c65ff;
 $body-color: #FFFFFF;
@@ -16,8 +17,8 @@ $quote-color: adjust-color($color: $highlight-term-color, $lightness: 5%, $alpha
 // headings
 $presentation-heading-text-transform: none;
 $presentation-h1-font-size: 1.8em !default;
-$presentation-h2-font-size: 1.5em !default;
-$presentation-h3-font-size: 1.3em !default;
+$presentation-h2-font-size: 1.3em !default;
+$presentation-h3-font-size: 1.2em !default;
 
 /*-- scss:rules --*/
 

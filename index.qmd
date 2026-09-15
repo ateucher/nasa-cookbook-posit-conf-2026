@@ -466,11 +466,9 @@ I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share o
 
 ## Quarto is helping spread open practices across NASA
 
-![](img/cloud-hd5-paper.png){.fragment .absolute width=527px left=-60px top=120px}
+![](img/cloud-hd5-paper.png){.fragment .absolute width=527px left=-60px top=160px} ![](img/nasa-data-governance.png){.fragment .absolute width=560px left=510px top=500px}
 
-![](img/nasa-data-governance.png){.fragment .absolute width=560px left=510px top=500px}
-
-![](img/virtual-stores-nasa.png){.fragment .absolute width=542px left=1115px top=120px}
+![](img/virtual-stores-nasa.png){.fragment .absolute width=542px left=1115px top=160px}
 
 ::: notes
 - use of quarto across NASA
