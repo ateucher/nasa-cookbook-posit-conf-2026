@@ -478,9 +478,18 @@ I see Quarto as [**a tool that enables us**]{.color-gold} to open up and share o
 - helping fuel a shift to open documentation and sharing early.
 :::
 
---------------------------------------------------------------------------------
+##
 
 ![](img/people-tooling-w-extras-white.png)
+
+::: {.footer .center-footer}
+**Cookbook Contributors**
+
+**NASA Mentors:** Aimee Barciauskas, Andy Barrett, Chris Battisto, Mikala Beig, Brandon Bottomley, Ian Carroll, Aaron Friesz, Alexis Hunzinger, Mahsa Jami, Danniel Kaufman, Sheyenne Kirkland, Alex Lewandowski, Bri Lind, Owen Littlejongs, Luis López, Jack McNelis, Cassie Nickles, Catalina Oaida Taglialatela, Celia Ou, Brianna Pagán, Rupesh Shrestha, Sargent Shriver, Amy Steiker, Michele Thornton, Makhan Virdi, Jess Welch.
+
+**Openscapes:** Stefanie Butland, Ronny A.
+Hernández Mora, Julie Lowndes, Erin Robinson, Andy Teucher.
+:::
 
 ::: notes
 - Finish on this diagram

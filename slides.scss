@@ -132,7 +132,7 @@ $presentation-h3-font-size: 1.2em !default;
 .reveal .footer {
   color: $link-color;
   font-family: $presentation-heading-font;
-  
+
   // Quarto's footer.css loads after the theme and sets these on .reveal .footer,
   // so target the child to win on specificity
   > * {
@@ -140,6 +140,14 @@ $presentation-h3-font-size: 1.2em !default;
     text-align: right;
     margin-right: 2em;
   }
+}
+
+// Final slide: center the contributor footer
+// Note: Quarto's footer plugin moves footer divs out of the slide section to
+// become direct children of .reveal at runtime, so don't scope under .slides
+.reveal .footer.center-footer > * {
+  text-align: center;
+  margin-right: 0;
 }
 
 .huge-primary {
