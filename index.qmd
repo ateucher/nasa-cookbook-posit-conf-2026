@@ -40,17 +40,11 @@ format:
 - using satellites to capture incredible data with different instruments so we can learn about our world
 :::
 
-# 100+ petabytes of data
-
-::: notes
-- NASA's Earth Science program manages over 100 petabytes of remote sensing data
-:::
-
-## {.center data-menu-title="EO data"}
+## 100+ petabytes of data
 
 ::: {.columns}
 ::::: {.column width="40%"}
-![](img/NISAR.png){.absolute .no-radius width=882.7px height=522.9px left=-179.3px top=160.6px style="transform: rotate(90deg);"}
+![](img/NISAR.png){.absolute .no-radius height=400px left=-120px top=290px style="transform: rotate(90deg);"}
 :::::
 
 ::::: {.column width="60%"}
@@ -65,6 +59,7 @@ format:
 :::
 
 ::: notes
+- NASA's Earth Science program manages over 100 petabytes of remote sensing data
 - contributes to scientific research all over the world,
 - helping us learn about climate change and its impacts, landscape and ocean biology, and water and atmospheric processes.
 - Really important things for the future of the world
@@ -438,7 +433,6 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 - **Onboard** new contributors
 - **Screenshare** to get feedback or solve a problem together.
 - Seeing how other people work is a big part of transition to working more openly and collaboratively.
-- Great for onboarding
 - **Quarto** tool that doesn't require too much effort to learn **makes coworking easier**
 :::
 
