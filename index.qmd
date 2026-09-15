@@ -433,7 +433,7 @@ Artwork by [Allison Horst](https://www.allisonhorst.com/)
 - **Onboard** new contributors
 - **Screenshare** to get feedback or solve a problem together.
 - Seeing how other people work is a big part of transition to working more openly and collaboratively.
-- **Quarto** tool that doesn't require too much effort to learn **makes coworking easier**
+  <!-- - **Quarto** tool that doesn't require too much effort to learn **makes coworking easier** -->
 :::
 
 # ![](img/nasa-logo.png){.heading-logo height=2em} <span class="heading-emoji">❤️</span> ![](img/quarto-logo-trademark-light.svg){.heading-logo height=2em} # {data-menu-title="NASA loves Quarto"}
